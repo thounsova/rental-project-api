@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class RegisterResponseDto {
-
     private String message;   // Success message
     private String username;  // Optional: the registered username
 }
